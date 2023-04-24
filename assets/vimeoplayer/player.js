@@ -5,7 +5,7 @@
  @license MIT
  Native Promise Only
       v0.8.1 (c) Kyle Simpson
-      MIT License: https://getify.mit-license.org
+      MIT License: http://getify.mit-license.org
 */
 var $jscomp=$jscomp||{};$jscomp.scope={};$jscomp.getGlobal=function(c){return"undefined"!=typeof window&&window===c?c:"undefined"!=typeof global&&null!=global?global:c};$jscomp.global=$jscomp.getGlobal(this);$jscomp.checkEs6ConformanceViaProxy=function(){try{var c={},g=Object.create(new $jscomp.global.Proxy(c,{get:function(k,l,f){return k==c&&"q"==l&&f==g}}));return!0===g.q}catch(k){return!1}};$jscomp.USE_PROXY_FOR_ES6_CONFORMANCE_CHECKS=!1;
 $jscomp.ES6_CONFORMANCE=$jscomp.USE_PROXY_FOR_ES6_CONFORMANCE_CHECKS&&$jscomp.checkEs6ConformanceViaProxy();$jscomp.arrayIteratorImpl=function(c){var g=0;return function(){return g<c.length?{done:!1,value:c[g++]}:{done:!0}}};$jscomp.arrayIterator=function(c){return{next:$jscomp.arrayIteratorImpl(c)}};$jscomp.makeIterator=function(c){var g="undefined"!=typeof Symbol&&Symbol.iterator&&c[Symbol.iterator];return g?g.call(c):$jscomp.arrayIterator(c)};$jscomp.ASSUME_ES5=!1;
